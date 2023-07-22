@@ -1,0 +1,120 @@
+.container h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #352E28;
+    position: relative;
+}
+
+body {
+    background-color: #F7ECDE;
+}
+
+.siteLogin {
+    border-top: 1px black dashed;
+    border-bottom: 1px black dashed;
+    /* margin-top: 20px; */
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.container h1::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 17%;
+    left: 520;
+    bottom: 50px;
+    /* right: inherit; */
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+.container h1:hover h1::before {
+    height: 50%;
+}
+
+.bookMark-heading i {
+    font-size: 25px;
+    color:
+        #212529
+}
+
+.bookMark-heading h2 {
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    line-height: 30px
+}
+
+label {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.change {
+    background-color: aqua;
+    color: #212529;
+    font-size: 50px
+}
+
+.circles span:nth-child(3) {
+    background-color: #4db748;
+}
+
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+}
+
+span {
+    width: 18px;
+    height: 18px;
+}
+
+.circles {
+    margin: 15px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.box-content {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    /* text-align: center; */
+    border-radius: 7px;
+    /* margin: 10px; */
+    padding: 22px;
+}
+
+.box .box-content h4 {
+    font-family: 'Bree Serif', serif;
+    font-size: 21px;
+    line-height: 27.3px;
+    padding: 0px 0px 8px;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.box .box-content p {
+    color: RGB(33, 37, 41);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
